@@ -9,7 +9,7 @@ function App() {
         <HotSection />
       </main>
       <main>
-<JuicySection/>
+        <JuicySection />
       </main>
     </>
   );

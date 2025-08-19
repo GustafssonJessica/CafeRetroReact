@@ -1,8 +1,9 @@
 import type { ReactElement } from "react";
+import { FirstUnderTitle } from "./firstUnderTitle";
 
 export function FirstUnderTitleJuicy() : ReactElement{
-return <h2 className="redbox first">
- Ripe fruit – freshly squeezed.
-</h2>
+return <FirstUnderTitle className="redbox first"
+ title = "Ripe fruit – freshly squeezed."
+/>
 
 }

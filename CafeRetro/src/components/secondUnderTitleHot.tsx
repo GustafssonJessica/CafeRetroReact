@@ -1,5 +1,6 @@
 import type { ReactElement } from "react";
+import { SecondUnderTitle } from "./secondUnderTitle";
 
 export function SecondUnderRubrik(): ReactElement {
-  return <h2 className="redbox last"> We give you that perfect cup every time.</h2>;
+  return <SecondUnderTitle className="redbox last"  title= "We give you that perfect cup every time." />;
 }
