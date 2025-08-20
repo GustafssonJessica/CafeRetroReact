@@ -1,14 +1,11 @@
-import type { ReactElement } from "react"
+import type { ReactElement } from "react";
 
 interface IMainTitleProps {
-  className: string;
   title: string;
 }
 
-export const MainTitle  = ({title, className}: IMainTitleProps) : ReactElement =>{
-return <h1 className = {className}>
-{title}
-</h1>
-
-
-}
+export const MainTitle = ({
+  title,
+}: IMainTitleProps): ReactElement => {
+  return <h1 className="sectionName">{title}</h1>;
+};
