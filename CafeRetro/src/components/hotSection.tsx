@@ -8,8 +8,10 @@ export const HotSection = (): ReactElement => {
   return (
     <section className="hot">
       <MainTitleHot />
+      <div className="redbox-wrapper">
       <FirstUnderRubrik />
       <SecondUnderRubrik />
+      </div>
       <SectionHot />
     </section>
   );
